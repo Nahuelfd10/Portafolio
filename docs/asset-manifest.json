@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5775a95e.css",
+    "main.js": "/static/js/main.004853d0.js",
+    "static/media/me.png": "/static/media/me.f4903e19b53a180d77d6.png",
+    "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/me-about.png": "/static/media/me-about.db540d978851f51178bb.png",
+    "static/media/Front5.png": "/static/media/Front5.a573d28f6d184cca465e.png",
+    "static/media/Front8.png": "/static/media/Front8.e5bd00c8c9a9b1323f5a.png",
+    "static/media/Front6.png": "/static/media/Front6.47a173cbf97aa6d8ea22.png",
+    "static/media/GifApp.jpg": "/static/media/GifApp.f6726bd233404527aa76.jpg",
+    "static/media/Front1.png": "/static/media/Front1.523b41d1d83bff1bd3db.png",
+    "static/media/TareasApp.png": "/static/media/TareasApp.d97811761fa84e7706dd.png",
+    "static/media/Front3.png": "/static/media/Front3.5d272c7510733250d050.png",
+    "static/media/Front4.png": "/static/media/Front4.4ff765bb9668d6eb0ffe.png",
+    "static/media/Front7.png": "/static/media/Front7.aaf12665ebd5fa0dcd98.png",
+    "static/media/Front2.png": "/static/media/Front2.f80cfbd5b0ca06aa0b80.png",
+    "index.html": "/index.html",
+    "main.5775a95e.css.map": "/static/css/main.5775a95e.css.map",
+    "main.004853d0.js.map": "/static/js/main.004853d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5775a95e.css",
+    "static/js/main.004853d0.js"
+  ]
+}
