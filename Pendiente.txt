@@ -1,0 +1,14 @@
+Portafolio:
+- Journal App --> No funciona el demo
+- Buscar la de los heroes y subirla
+- Ver calendario si se puede subir sin el backend, y sino solucionar subir el backend a heroku y agregarlo
+
+Testimonios:
+- Agregar reales
+
+Contacto:
+- Solucionar cuando se envia datos, no llegan a ningun mail
+- No anda boton de wsp
+
+Footer:
+- Ver posibilidad de agregar logo
