@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <div className='cta'>
         {/* <a href={CV} className='btn'>Descargar CV</a> */}
-        <a href="https://docs.google.com/document/d/1EHYAGZmPpMH2FnCBmsVGt4TByImC3MhViWkTK9uB7Fg/edit?usp=sharing" className='btn'>Curriculum</a>
+        <a href="https://docs.google.com/document/d/1EHYAGZmPpMH2FnCBmsVGt4TByImC3MhViWkTK9uB7Fg/edit?usp=sharing" target="_blank" className='btn'>Curriculum</a>
         <a href="#contact" className='btn btn-primary'>Hablemos</a>
     </div>
   )
