@@ -35,12 +35,12 @@ const Contact = () => {
         </div>
         {/*  END OF CONTACT OPTIONS */}
 
-        <form action="">
+        {/* <form action="">
           <input type="text" name="name" placeholder='Nombre' required />
           <input type="email" name="email" placeholder='Email' required />
           <textarea name="message" rows="7" placeholder='' required></textarea>
           <button type='submit' className='btn btn-primary' >Enviar mensaje</button>
-        </form>
+        </form> */}
       </div>
     </section>
   )
