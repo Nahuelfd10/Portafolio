@@ -1,14 +1,20 @@
-import React from 'react'
-import CV from '../../assets/cv.pdf'
+import React from "react";
 
 const CTA = () => {
   return (
-    <div className='cta'>
-        {/* <a href={CV} className='btn'>Descargar CV</a> */}
-        <a href="https://docs.google.com/document/d/1EHYAGZmPpMH2FnCBmsVGt4TByImC3MhViWkTK9uB7Fg/edit?usp=sharing" target="_blank" className='btn'>Curriculum</a>
-        <a href="#contact" className='btn btn-primary'>Hablemos</a>
+    <div className="cta">
+      <a
+        href="https://drive.google.com/file/d/1DTdopRyDUzMul7c9XTr54CFTSPej-b5I/view?usp=sharing"
+        target="_blank"
+        className="btn"
+      >
+        Curriculum
+      </a>
+      <a href="#contact" className="btn btn-primary">
+        Hablemos
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default CTA
+export default CTA;

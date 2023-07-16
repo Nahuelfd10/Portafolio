@@ -1,4 +1,55 @@
-.experience__container {
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+  background: var(--color-bg-variant);
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid var(--color-bg-variant);
+}
+
+.vertical-timeline-element-title {
+  font-family: "Arial Black", sans-serif;
+  font-size: 24px;
+  line-height: initial;
+}
+
+.vertical-timeline-element-client {
+  color: var(--color-primary);
+}
+
+.vertical-timeline-element-icon {
+  -webkit-box-shadow: 0 0 0 4px #fff, 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: rgb(53, 53, 53);
+  background-color: var(--color-primary);
+}
+
+
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: var(--color-light);
+  }
+}
+
+/* .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -41,7 +92,6 @@
     font-size: x-large;
 }
 
-/* -------------MEDIA QUERIES (MEDIUM DEVICES)---------------------- */
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
@@ -58,7 +108,6 @@
     }
 }
 
-/* -------------MEDIA QUERIES (SMALL DEVICES)---------------------- */
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
@@ -69,4 +118,4 @@
         padding: 2rem 1rem; 
     }
 
-}
+} */
