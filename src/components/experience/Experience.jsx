@@ -1,6 +1,4 @@
 import React from "react";
-import { ReactComponent as HomeIcon } from "./../../home.svg";
-import { ReactComponent as UserIcon } from "./../../user.svg";
 import timelineElements from "./../../timelineElements";
 import {
   VerticalTimeline,
@@ -8,8 +6,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./experience.css";
-import DespSvg from "../../Des.png";
-import MerlionSvg from "../../merlion.jpeg";
+import DespSvg from "../../assets/Des.png";
+import MerlionSvg from "../../assets/merlion.jpeg";
 
 const Experience = () => {
   /* let homeIconStyles = { background: "#06D6A0" }; */
