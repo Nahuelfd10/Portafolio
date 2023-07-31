@@ -47,18 +47,14 @@ const About = () => {
             <br />
             Al mismo tiempo, continuo con mí desarrollo de forma autodidacta.🤓
             <br />
-            Anteriormente comencé una fábrica de revestimientos símil piedra y
-            baldosas 🏭
+            Estuve trabajando en varios proyectos, incluyendo colaboraciones con
+            clientes de renombre como Despegar. ✈️ <br />
+            Esta experiencia me permitió desarrollar habilidades sólidas en el
+            ámbito técnico y la colaboración en equipos multidisciplinarios. 🤝
             <br />
-            Esta etapa, requirió no sólo aprender los procesos de producción de
-            los mismos👷, sino también habilidades sobre:
-            <br />
-            🗣 Comunicación 💡 Liderazgo 💻 Marketing digital
-            <br />
-            y utilizar programas como:
-            <br />
-            🖌 Photoshop 📊 Excel
-            <br />
+            Me gusta mantenerme actualizado con las últimas tendencias y
+            tecnologías, dedicando mucho tiempo a la capacitación y al
+            aprendizaje continuo. 🚀📚
           </p>
 
           <a href="#contact" className="btn btn-primary">

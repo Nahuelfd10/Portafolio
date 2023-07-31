@@ -42,6 +42,7 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  min-width: 174px;
 }
 
 .about__card:hover {
@@ -93,7 +94,7 @@ a:hover {
 /* -------------MEDIA QUERIES (SMALL DEVICES)---------------------- */
 @media screen and (max-width: 600px) {
   .about__me {
-    width: 45%;
+    width: 55%;
     margin: 0 auto 3rem;
   }
 
