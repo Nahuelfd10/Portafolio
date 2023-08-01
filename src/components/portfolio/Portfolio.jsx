@@ -10,21 +10,14 @@ import {
   SiJavascript,
   SiAngular,
 } from "react-icons/si";
-import Miweb from "../../assets/Miweb2.jpg";
-/* import IMG1 from '../../assets/GifApp.jpg';
-import IMG2 from '../../assets/Front1.png';
-import IMG3 from '../../assets/Front2.png';
-import IMG4 from '../../assets/Front3.png';
-import IMG5 from '../../assets/Front4.png';
-import IMG6 from '../../assets/Front5.png';
-import IMG7 from '../../assets/Front6.png';
-import IMG8 from '../../assets/Front7.png';
-import IMG9 from '../../assets/Front8.png';
-import IMG10 from '../../assets/TareasApp.png'; */
+import Miweb from "../../assets/Miweb3.jpg";
+import CarHub from "../../assets/CarHub.jpg";
+import HeroesApp from "../../assets/HeroesApp.jpg";
+import MatiasFitCoach from "../../assets/MatiasFitCoach.jpg";
 
 const data = [
   {
-    id: 1,
+    id: 14,
     image: Miweb,
     title: "Mi web",
     technologies: ["React", "HTML5", "CSS3", "JavaScript"],
@@ -32,7 +25,31 @@ const data = [
     demo: "nahuelfd10.github.io/Portafolio/",
   },
   {
-    id: 2,
+    id: 13,
+    image: MatiasFitCoach,
+    title: "MatiasFitCoach",
+    technologies: ["React", "HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/Nahuelfd10/FitClub",
+    demo: "nahuelfd10.github.io/Portafolio/",
+  },
+  {
+    id: 12,
+    image: CarHub,
+    title: "CarHub",
+    technologies: ["React", "HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/Nahuelfd10/cars_showcase",
+    demo: "https://cars-page-phi.vercel.app/",
+  },
+  {
+    id: 11,
+    image: HeroesApp,
+    title: "Heroes App",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/Nahuelfd10/HeroesApp",
+    demo: "nahuelfd10.github.io/Portafolio/",
+  },
+  {
+    id: 10,
     image: "https://i.ibb.co/p4kMQ5T/Gift-Expert-App2.jpg",
     title: "Buscador de GIF",
     technologies: ["Angular", "HTML5", "CSS3", "JavaScript"],
@@ -40,7 +57,7 @@ const data = [
     demo: "https://nahuelfd10.github.io/react-giftexpertapp/",
   },
   {
-    id: 3,
+    id: 9,
     image: "https://i.ibb.co/c87ftsS/Tareas-App.png",
     title: "Organizador de tareas",
     technologies: ["React", "HTML5", "CSS3", "JavaScript"],
@@ -48,7 +65,7 @@ const data = [
     demo: "https://nahuelfd10.github.io/JournalApp",
   },
   {
-    id: 4,
+    id: 8,
     image: "https://i.ibb.co/QpLYKSc/Front2.png",
     title: "Sección de características",
     technologies: ["HTML5", "CSS3"],
@@ -56,7 +73,7 @@ const data = [
     demo: "https://nahuelfd10.github.io/FM-Four-card-feature-section/",
   },
   {
-    id: 5,
+    id: 7,
     image: "https://i.ibb.co/6tDqD44/Front3.png",
     title: "Cuadrícula de suscripción",
     technologies: ["HTML5", "CSS3"],
@@ -72,7 +89,7 @@ const data = [
     demo: "https://nahuelfd10.github.io/stats-preview-card-component-main/",
   },
   {
-    id: 7,
+    id: 5,
     image: "https://i.ibb.co/cwtQnfJ/Front5.png",
     title: "Desafio QR",
     technologies: ["HTML5", "CSS3"],
@@ -80,7 +97,7 @@ const data = [
     demo: "https://nahuelfd10.github.io/Desafio-QR/",
   },
   {
-    id: 8,
+    id: 4,
     image: "https://i.ibb.co/wrsKX34/Front6.png",
     title: "Cuadro perfil",
     technologies: ["HTML5", "CSS3"],
@@ -88,7 +105,7 @@ const data = [
     demo: "https://nahuelfd10.github.io/cuadro-perfil/",
   },
   {
-    id: 9,
+    id: 3,
     image: "https://i.ibb.co/yVzQ5qs/Front7.png",
     title: "Cuadro suscripcion",
     technologies: ["HTML5", "CSS3"],
@@ -96,7 +113,7 @@ const data = [
     demo: "https://nahuelfd10.github.io/order-summary-card/",
   },
   {
-    id: 10,
+    id: 2,
     image: "https://i.ibb.co/QCSLJNM/Front8.png",
     title: "Carta NFT",
     technologies: ["HTML5", "CSS3"],
@@ -105,7 +122,7 @@ const data = [
     demo: "https://nahuelfd10.github.io/nft-preview-card-component/",
   },
   {
-    id: 11,
+    id: 1,
     image: "https://i.ibb.co/nfYXct0/Front1.png",
     title: "Sección de comentarios",
     technologies: ["HTML5", "CSS3"],
