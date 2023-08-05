@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.40e8cbac.css",
-    "main.js": "/static/js/main.876338ae.js",
+    "main.css": "/static/css/main.3fb3d2b2.css",
+    "main.js": "/static/js/main.64c337b5.js",
+    "static/media/MatiasFitCoach.jpg": "/static/media/MatiasFitCoach.9ff5768e148383f14e8f.jpg",
+    "static/media/HeroesApp.jpg": "/static/media/HeroesApp.f743a8b94aac88df05c4.jpg",
+    "static/media/CarHub.jpg": "/static/media/CarHub.5068f8d994e8755df199.jpg",
+    "static/media/me3.jpg": "/static/media/me3.c31ab85a634bdd5e051c.jpg",
+    "static/media/Miweb3.jpg": "/static/media/Miweb3.bc6461ecca829fc8d354.jpg",
     "index.html": "/index.html",
-    "main.40e8cbac.css.map": "/static/css/main.40e8cbac.css.map",
-    "main.876338ae.js.map": "/static/js/main.876338ae.js.map"
+    "main.3fb3d2b2.css.map": "/static/css/main.3fb3d2b2.css.map",
+    "main.64c337b5.js.map": "/static/js/main.64c337b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.40e8cbac.css",
-    "static/js/main.876338ae.js"
+    "static/css/main.3fb3d2b2.css",
+    "static/js/main.64c337b5.js"
   ]
 }
