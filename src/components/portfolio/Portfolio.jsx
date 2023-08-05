@@ -10,15 +10,11 @@ import {
   SiJavascript,
   SiAngular,
 } from "react-icons/si";
-import Miweb from "../../assets/Miweb3.jpg";
-import CarHub from "../../assets/CarHub.jpg";
-import HeroesApp from "../../assets/HeroesApp.jpg";
-import MatiasFitCoach from "../../assets/MatiasFitCoach.jpg";
 
 const data = [
   {
     id: 14,
-    image: Miweb,
+    image: "https://iili.io/HtxnM4S.jpg",
     title: "Mi web",
     technologies: ["React", "HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/Nahuelfd10/Portafolio",
@@ -26,7 +22,7 @@ const data = [
   },
   {
     id: 13,
-    image: MatiasFitCoach,
+    image: "https://iili.io/HtxnGG2.jpg",
     title: "MatiasFitCoach",
     technologies: ["React", "HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/Nahuelfd10/FitClub",
@@ -34,7 +30,7 @@ const data = [
   },
   {
     id: 12,
-    image: CarHub,
+    image: "https://iili.io/Htxn0Q4.jpg",
     title: "CarHub",
     technologies: ["React", "HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/Nahuelfd10/cars_showcase",
@@ -42,7 +38,7 @@ const data = [
   },
   {
     id: 11,
-    image: HeroesApp,
+    image: "https://iili.io/HtxnECl.jpg",
     title: "Heroes App",
     technologies: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/Nahuelfd10/HeroesApp",
