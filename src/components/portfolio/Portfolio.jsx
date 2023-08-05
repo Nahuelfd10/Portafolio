@@ -30,7 +30,7 @@ const data = [
     title: "MatiasFitCoach",
     technologies: ["React", "HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/Nahuelfd10/FitClub",
-    demo: "nahuelfd10.github.io/Portafolio/",
+    demo: "https://nahuelfd10.github.io/FitClub/",
   },
   {
     id: 12,
@@ -46,7 +46,7 @@ const data = [
     title: "Heroes App",
     technologies: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/Nahuelfd10/HeroesApp",
-    demo: "nahuelfd10.github.io/Portafolio/",
+    demo: "https://nahuelfd10.github.io/login",
   },
   {
     id: 10,
@@ -154,7 +154,7 @@ const Portfolio = () => {
       <h5>Trabajos recientes</h5>
       <h2>Portafolio</h2>
 
-      <div className="container portfolio__container">
+      <div className="portfolio__container">
         {data.map(({ id, image, title, technologies, github, demo }) => {
           return (
             <article key={id} className="portfolio__item">

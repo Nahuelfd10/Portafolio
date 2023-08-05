@@ -57,9 +57,9 @@ const About = () => {
             aprendizaje continuo. 🚀📚
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          {/* <a href="#contact" className="btn btn-primary">
             Hablemos
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

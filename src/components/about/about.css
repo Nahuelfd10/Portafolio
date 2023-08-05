@@ -37,12 +37,13 @@
 }
 
 .about__card {
-  background: var(--color-bg-variant);
-  border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
   min-width: 174px;
+  background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #4db5ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about__card:hover {
@@ -99,8 +100,10 @@ a:hover {
   }
 
   .about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
   }
 
   .about__content {

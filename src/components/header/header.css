@@ -88,7 +88,7 @@
 
 header {
   height: 85vh;
-  padding-top: 4rem;
+  padding-top: 2rem;
   overflow: hidden;
 }
 
@@ -106,7 +106,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 25px;
 }
 
 .header_text {
@@ -147,7 +147,7 @@ img {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 6.5rem;
+  bottom: 8.5rem;
   font-size: 1.5rem;
 }
 
@@ -188,7 +188,7 @@ img {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 3rem;
+  bottom: 8rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
@@ -219,7 +219,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 35px;
     margin-bottom: 100px;
   }
 
@@ -228,11 +227,16 @@ img {
     flex-direction: row;
     align-items: center;
     gap: 2.8rem;
-    position: absolute;
-    left: 14%;
-    bottom: -1rem;
+    bottom: 0rem;
+    width: -webkit-fill-available;
     font-size: 1.5rem;
+    justify-content: center;
   }
+
+  .nombre,
+.apellido {
+  font-size: xx-large;
+}
 
   .me {
     width: 250px;

@@ -1,5 +1,5 @@
 footer {
-    background: var(--color-primary);
+    background: rgba(0, 0, 0, 0.3);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -50,6 +50,27 @@ footer a{
 .footer__copyright {
     margin-bottom: 4rem;
     color: var(--color-bg);
+}
+
+.footer__logo{
+    color:#4db5ff
+}
+
+.permalinks li a {
+    color: white;
+}
+
+.permalinks > li > a:hover {
+    color: var(--color-primary);
+}
+
+.footer__socials{
+    color:white
+}
+
+.footer__socials > a:hover{
+    border: 1px solid #4db5ff;
+    color: white;
 }
 
 /* -------------MEDIA QUERIES (SMALL DEVICES)---------------------- */

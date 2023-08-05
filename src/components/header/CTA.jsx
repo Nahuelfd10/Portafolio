@@ -6,11 +6,11 @@ const CTA = () => {
       <a
         href="https://drive.google.com/file/d/1DTdopRyDUzMul7c9XTr54CFTSPej-b5I/view?usp=sharing"
         target="_blank"
-        className="btn"
+        className="btn btn-primary"
       >
         Curriculum
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <a href="#contact" className="btn">
         Hablemos
       </a>
     </div>

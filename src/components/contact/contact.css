@@ -11,13 +11,14 @@
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
     transition: var(--transition);
     width: 210px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #4db5ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact__option:hover {
