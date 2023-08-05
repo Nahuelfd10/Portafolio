@@ -46,7 +46,7 @@ const data = [
     title: "Heroes App",
     technologies: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/Nahuelfd10/HeroesApp",
-    demo: "https://nahuelfd10.github.io/login",
+    demo: "https://nahuelfd10.github.io/HeroesApp/",
   },
   {
     id: 10,
