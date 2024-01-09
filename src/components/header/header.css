@@ -217,9 +217,9 @@ img {
 
   .header__container {
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    margin-bottom: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
   }
 
   .header__socials {
@@ -234,9 +234,9 @@ img {
   }
 
   .nombre,
-.apellido {
-  font-size: xx-large;
-}
+  .apellido {
+    font-size: xx-large;
+  }
 
   .me {
     width: 200px;

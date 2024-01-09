@@ -1,6 +1,23 @@
 let timelineElements = [
   {
     id: 1,
+    company: "Advisors4It",
+    title: "Mobohubb App",
+    client: "IT-ROI Solutions",
+    description:
+      "En este proyecto, asumí un papel integral como Desarrollador, liderando y supervisando todo el ciclo de vida del frontend, desde su concepción hasta su implementación final. Mi responsabilidad principal fue la estructuración detallada y la planificación efectiva de cada tarea, asegurando un desarrollo eficiente y en línea con los objetivos del proyecto.",
+    buttonText: "Ir a la app",
+    enlace:
+      "https://play.google.com/store/search?q=mobohubb&c=apps&hl=es_AR&gl=US",
+    date: "Agosto 2023 - Actualidad",
+    tecnologies: {
+      frontend: "React Native",
+      backend: "AWS",
+      database: "MongoDb",
+    },
+  },
+  {
+    id: 2,
     company: "Despegar",
     title: "RAS0 – Gestor De Razones Sociales",
     client: "Despegar",
@@ -8,7 +25,7 @@ let timelineElements = [
       "Enfoqué mis habilidades en diseñar interfaces intuitivas y mejorar la experiencia tanto para los proveedores como para el equipo interno de Despegar. Mi contribución resultó en una mayor eficiencia y satisfacción en la gestión de razones sociales.",
     buttonText: "View Frontend Pro",
     enlace: "",
-    date: "Junio 2023 - Actualidad",
+    date: "Junio 2023 - Agosto 2023",
     tecnologies: {
       frontend: "Angular",
       backend: "Java",
@@ -16,7 +33,7 @@ let timelineElements = [
     },
   },
   {
-    id: 2,
+    id: 3,
     company: "Despegar",
     title: "Web Oficial Despegar",
     client: "Despegar",
@@ -32,7 +49,7 @@ let timelineElements = [
     },
   },
   {
-    id: 3,
+    id: 4,
     company: "Despegar",
     title: "PMP – Portal Multi Producto",
     client: "Despegar",
@@ -48,7 +65,7 @@ let timelineElements = [
     },
   },
   {
-    id: 4,
+    id: 5,
     company: "MerlionTechs",
     title: "Reditus",
     client: "Merlion Techs",

@@ -8,6 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import "./experience.css";
 import DespSvg from "../../assets/Des.png";
 import MerlionSvg from "../../assets/merlion.jpeg";
+import advisors4It from "../../assets/advisors4It.jpeg";
 
 const Experience = () => {
   /* let homeIconStyles = { background: "#06D6A0" }; */
@@ -19,6 +20,11 @@ const Experience = () => {
   let merlionIconStyles = {
     backgroundColor: "white",
     backgroundImage: `url(${MerlionSvg})`,
+    backgroundSize: "cover",
+  };
+  let advisors4ItStyles = {
+    backgroundColor: "white",
+    backgroundImage: `url(${advisors4It})`,
     backgroundSize: "cover",
   };
 
@@ -41,7 +47,13 @@ const Experience = () => {
               key={element.id}
               date={element.date}
               dateClassName="date"
-              iconStyle={isDespeIcon ? despeIconStyles : merlionIconStyles}
+              iconStyle={
+                element.company === "Advisors4It"
+                  ? advisors4ItStyles
+                  : element.company === "MerlionTechs"
+                  ? merlionIconStyles
+                  : despeIconStyles
+              }
               icon={
                 isDespeIcon ? (
                   <div style={despeIconStyles}></div>
